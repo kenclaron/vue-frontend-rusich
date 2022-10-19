@@ -79,12 +79,15 @@ vue-frontend-rusich
 
 ## Preview
 
-[<img src="https://i.imgur.com/7Fh7zjg.png" width="48%"/>](https://i.imgur.com/7Fh7zjg.png)
-[<img src="https://i.imgur.com/jspbxVR.png" width="48%"/>](https://i.imgur.com/jspbxVR.png)
+[<img src="https://i.imgur.com/YB1EI14.png" width="48%"/>](https://i.imgur.com/YB1EI14.png)
+[<img src="https://i.imgur.com/Jd5Kkau.png" width="48%"/>](https://i.imgur.com/Jd5Kkau.png)
+[<img src="https://i.imgur.com/fe8p8Pj.png" width="48%"/>](https://i.imgur.com/fe8p8Pj.png)
+[<img src="https://i.imgur.com/4vOJIA9.png" width="48%"/>](https://i.imgur.com/4vOJIA9.png)
+[<img src="https://i.imgur.com/57CSyR3.png" width="96.5%"/>](https://i.imgur.com/57CSyR3.png)
 
 ## License
 
-The **Frontend Page Sample** licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The **Vue Frontend Rusich** licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 ## Author
 
