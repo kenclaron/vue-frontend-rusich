@@ -1,6 +1,6 @@
 # Vue Frontend Rusich (Vue.js, Sass, Vite)
 
-> Link: `coming soon`
+> Link: https://vue-frontend-rusich.vercel.app/
 
 > Project for `AddNoise` (<https://addnoise.su/>)
 
@@ -47,7 +47,7 @@
 
 ### **Open Webpage**
 
-- Open: `coming soon`
+- Open: https://vue-frontend-rusich.vercel.app/
 
 ## Project folder
 
