@@ -1,35 +1,94 @@
-# vue-frontend-project
+# Vue Frontend Rusich (Vue.js, Sass, Vite)
 
-This template should help get you started developing with Vue 3 in Vite.
+> Link: `coming soon`
 
-## Recommended IDE Setup
+> Project for `AddNoise` (<https://addnoise.su/>)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+> Case: Develop a responsive main page: header, slider, filter, "our projects" block, "about us" block and menu. Animation and hovers at your discretion. Use a pre-made design.
 
-## Customize configuration
+> Stack: `Vue`, `JavaScript`, `SCSS`.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Usage
 
-## Project Setup
+### **Using via npm**
 
-```sh
-npm install
+- Install `Node.js`: <https://nodejs.org/en/download/>;
+- Clone this repository: `git clone https://github.com/kenclaron/vue-frontend-rusich.git`;
+- Go to folder of repository: `cd ./vue-frontend-rusich`;
+- Install dependencies: `npm install`;
+- Type: `npm run dev` (launching in dev-mode in browser);
+- Type: `npm run lint` (checking lint errors);
+- Type: `npm run build` (build project for production):
+  - Results save in folder `./dist`;
+- Type: `npm run preview` (preview builded project locally).
+
+```text
+  git clone https://github.com/kenclaron/vue-frontend-rusich.git
+  cd ./vue-frontend-rusich
+  npm install
+  npm run dev
+  npm run lint
+  npm run build
+  npm run preview
 ```
 
-### Compile and Hot-Reload for Development
+### **Using via Docker**
 
-```sh
-npm run dev
+- Install Node.js - <https://nodejs.org/en/>
+- Install Docker - <https://www.docker.com/products/docker-desktop/>
+- Type: `docker pull ghcr.io/kenclaron/vue-frontend-rusich:main` to clone package in Docker
+- Type: `docker run -p 8080:80 -it --name vue-frontend-rusich ghcr.io/kenclaron/vue-frontend-rusich:main` to launch project
+- Open `localhost:8080` or `127.0.0.1:8080`
+
+```text
+  docker pull ghcr.io/kenclaron/vue-frontend-rusich:main
+  docker run -p 8080:80 -it --name vue-frontend-rusich ghcr.io/kenclaron/vue-frontend-rusich:main
 ```
 
-### Compile and Minify for Production
+### **Open Webpage**
 
-```sh
-npm run build
+- Open: `coming soon`
+
+## Project folder
+
+```text
+vue-frontend-rusich
+├── dist             - Builded project
+│   └── assets       - Sources from src/static
+│       ├── js       - Compiled .js-files
+│       └── css      - Compiled .css-files
+│
+├── public           - Public files
+│   ├── images       - Public images
+│   └── ...
+│
+└── src              - Source fiels
+    ├── assets
+    │   ├── fonts
+    │   ├── scss
+    │   └── ...
+    │
+    ├── components
+    │   ├── icons    - .svg-files for using in components
+    │   ├── subforms - sub-components
+    │   └── ...
+    │
+    ├─ App.vue
+    └─ main.js
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+## Preview
 
-```sh
-npm run lint
-```
+[<img src="https://i.imgur.com/7Fh7zjg.png" width="48%"/>](https://i.imgur.com/7Fh7zjg.png)
+[<img src="https://i.imgur.com/jspbxVR.png" width="48%"/>](https://i.imgur.com/jspbxVR.png)
+
+## License
+
+The **Frontend Page Sample** licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Author
+
+> You can express your gratitude by clicking on one of the links
+
+- [Personal website](https://kenclaron.github.io/kenclaron)
+- [VK](https://vk.com/club190729942)
