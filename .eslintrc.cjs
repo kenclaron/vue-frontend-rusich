@@ -8,6 +8,11 @@ module.exports = {
     "eslint:recommended",
     "@vue/eslint-config-prettier",
   ],
+  plugins: ["prettier"],
+  rules: {
+    "prettier/prettier": ["error", { endOfLine: "auto" }],
+    "vue/multi-word-component-names": "off",
+  },
   parserOptions: {
     ecmaVersion: "latest",
   },

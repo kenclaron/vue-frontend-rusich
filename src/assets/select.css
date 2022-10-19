@@ -1,0 +1,119 @@
+:root {
+  --vs-colors--lightest: rgba(60, 60, 60, 0.26);
+  --vs-colors--light: white;
+  --vs-colors--dark: #333;
+  --vs-colors--darkest: rgba(0, 0, 0, 0.15);
+
+  /* Search Input */
+  --vs-search-input-color: inherit;
+  --vs-search-input-bg: var(--vt-c-white-mute);
+  --vs-search-input-placeholder-color: transparent;
+
+  /* Font */
+  --vs-font-size: 1rem;
+  --vs-line-height: 1;
+
+  /* Disabled State */
+  --vs-state-disabled-bg: rgb(248, 248, 248);
+  --vs-state-disabled-color: var(--vs-colors--light);
+  --vs-state-disabled-controls-color: var(--vs-colors--light);
+  --vs-state-disabled-cursor: not-allowed;
+
+  /* Borders */
+  --vs-border-color: var(--vt-c-green);
+  --vs-border-width: 1px;
+  --vs-border-style: solid;
+  --vs-border-radius: 12px;
+
+  /* Actions: house the component controls */
+  --vs-actions-padding: 4px 6px 0 3px;
+
+  /* Component Controls: Clear, Open Indicator */
+  --vs-controls-color: var(--vs-colors--light);
+  --vs-controls-size: 1;
+  --vs-controls--deselect-text-shadow: 0 1px 0 #fff;
+
+  /* Selected */
+  --vs-selected-bg: #f0f0f0;
+  --vs-selected-color: var(--vs-colors--dark);
+  --vs-selected-border-color: var(--vt-c-green);
+  --vs-selected-border-style: var(--vs-border-style);
+  --vs-selected-border-width: var(--vs-border-width);
+
+  /* Dropdown */
+  --vs-dropdown-bg: #fff;
+  --vs-dropdown-color: inherit;
+  --vs-dropdown-z-index: 1000;
+  --vs-dropdown-min-width: 160px;
+  --vs-dropdown-max-height: 350px;
+  --vs-dropdown-box-shadow: 0px 3px 6px 0px var(--vs-colors--darkest);
+
+  /* Options */
+  --vs-dropdown-option-bg: #000;
+  --vs-dropdown-option-color: var(--vs-dropdown-color);
+  --vs-dropdown-option-padding: 3px 20px;
+
+  /* Active State */
+  --vs-dropdown-option--active-bg: var(--vt-c-green);
+  --vs-dropdown-option--active-color: #fff;
+
+  /* Deselect State */
+  --vs-dropdown-option--deselect-bg: #fb5858;
+  --vs-dropdown-option--deselect-color: #fff;
+
+  /* Transitions */
+  --vs-transition-timing-function: cubic-bezier(1, -0.115, 0.975, 0.855);
+  --vs-transition-duration: 150ms;
+}
+
+.v-select input,
+.vs__selected {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.vs__dropdown-toggle {
+  width: 100%;
+  height: 64px;
+  padding: 0 8px;
+
+  background-color: var(--vt-c-white-mute);
+  border-color: var(--vt-c-white-mute);
+  transition: var(--transition);
+}
+
+.vs__dropdown-toggle:hover {
+  border-color: var(--vt-c-green);
+}
+
+.vs__selected {
+  margin: 0;
+}
+
+.vs__dropdown-menu {
+  border-radius: 12px;
+  margin-top: -63px;
+  width: calc(100% + 2px);
+  max-width: 100vw;
+  min-width: fit-content;
+  min-height: 64px;
+  max-height: 50vh;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.vs__dropdown-menu > li {
+  padding: 20px 16px;
+}
+
+.vs__actions {
+  display: block;
+  background: var(--vt-c-green);
+  width: 34px;
+  padding-top: 8px;
+  padding-left: 9px;
+  height: 32px;
+  align-self: center;
+  border-radius: 50%;
+  transform: scale(0.75);
+}

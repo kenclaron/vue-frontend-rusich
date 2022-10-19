@@ -1,35 +1,65 @@
+@import "./fonts/TTFirsNeue/stylesheet.css";
 @import "./base.css";
+@import "vue-select/dist/vue-select.css";
+@import "./select.css";
+@import "./slider.css";
+@import "./checkboxes.css";
 
 #app {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
 
   font-weight: normal;
 }
 
-a,
+a {
+  text-decoration: none;
+  color: var(--vt-c-text-dark-1);
+  height: fit-content;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button:hover {
+  background-color: var(--vt-c-green-hover) !important;
+}
+button:active {
+  background-color: var(--vt-c-green-active) !important;
+}
+
+button[class$="--outlined"]:hover {
+  background-color: #f0f5f0 !important;
+}
+button[class$="--outlined"]:active {
+  background-color: #def3b5 !important;
+}
+
+sup {
+  font-size: 10px;
+}
+
 .green {
   text-decoration: none;
   color: hsla(160, 100%, 37%, 1);
   transition: 0.4s;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+.compact {
+  display: flex;
+  margin: 0 auto;
+  width: calc(100% - 128px);
+  max-width: 1312px;
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
+section {
+  border-top-right-radius: 80px;
+}
 
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
+@media (max-width: 760px) {
+  .compact {
+    display: flex;
+    margin: 0 auto;
+    width: calc(100% - 64px);
   }
 }
